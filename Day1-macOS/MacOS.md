@@ -104,3 +104,5 @@
     - [插件](https://hufangyun.com/2017/zsh-plugin/)
       - [代码自动补全插件](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
       - [高亮插件](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+    - 配置
+      - 参考`./.zshrc`
