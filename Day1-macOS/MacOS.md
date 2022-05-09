@@ -3,6 +3,7 @@
 - 访达
   
   - 设置-高级-显示所有文件的扩展名
+  - 查看隐藏文件快捷键：`shift + command + . `
   
 - Mac任何来源
 
@@ -87,8 +88,14 @@
 
 - 安装 git
 
-  - `brew install git`
+  - 安装`brew install git`
+  - 初始化配置
+    - `git config --global user.name  "username"`
+    - `git config --global user.email  "email"`
 
+- 生成 SSH 公钥(.ssh/id_rsa.pub)私钥(.ssh/id_rsa) 
+  - `ssh-keygen`
+  
 - 安装Homebrew(mac 软件包管理器)
 
   - [教程说明](https://gitee.com/cunkai/HomebrewCN)
