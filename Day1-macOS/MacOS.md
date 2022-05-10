@@ -5,36 +5,27 @@
   - 设置-高级-显示所有文件的扩展名
   - 查看隐藏文件快捷键：`shift + command + . `
   - ![image-20220510213611535](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_21_36_11_1652189771_1652189771714_eKFu2k_image-20220510213611535.png)
-  
 - Mac任何来源
 
   - 终端运行`sudo spctl --master-disable`
   - ![image-20220510213023595](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_21_30_23_1652189423_1652189423853_S3Inkl_image-20220510213023595.png)
-
 - 破解软件下载
   - [xclient](https://xclient.info)
   - [斯蒂芬周的博客](http://www.sdifen.com/)
-
 - 删除自带 ABC 输入法的方法
   - [教程](https://www.jianshu.com/p/0ba1292441b9)
   - 原因：系统自动切换输入法逻辑混乱，降低效率
   - ![image-20220510213116849](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_21_31_17_1652189477_1652189477078_QLvGO7_image-20220510213116849.png)
-  
 - 安装 chrome
 
   - 常用开发工具
-
 - 安装搜狗输入法
-
 - 安装微信
-
 - 安装 qq
-
 - 安装 typora
 
   - 查写markdown
-  - 配合 uPic+gitee 使用图床
-
+  - 配合 Snipaste + uPic + gitee 使用图床
 - 安装 vscode
 
   - 通过命令行打开 [vscode](https://blog.csdn.net/itworld123/article/details/118436081)
@@ -73,7 +64,7 @@
     - CSS Peek
       - 点击类名迅速定位到样式
   - 主题
-    - vscode-icons
+    - Material Icon Theme
       - 文件资源树图标
     - Community Material Theme
       - 主题
