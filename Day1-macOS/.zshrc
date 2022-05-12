@@ -152,7 +152,7 @@ eval "$(jenv init -)"
 # install
 # curl https://pyenv.run | bash
 
-# pyenv install node images
+# pyenv install python images
 export  PYTHON_BUILD_MIRROR_URL="http://pyenv.qiniudn.com/pythons/"
 
 # activate
