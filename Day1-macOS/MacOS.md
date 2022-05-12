@@ -126,3 +126,5 @@
       - [高亮插件](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
     - 配置
       - 参考`./.zshrc`
+      - vscode 配置终端字体
+        - ![image-20220513013447299](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_13_01_34_47_1652376887_1652376887510_AFvrSv_image-20220513013447299.png)
