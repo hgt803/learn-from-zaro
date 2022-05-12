@@ -110,16 +110,33 @@ source ~/.bash_profile
 export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;export ALL_PROXY=socks5://127.0.0.1:1080
 # export ALL_PROXY=socks5://192.168.100.3:1080
 
+
+# nvm
+
+# repo
+# https://github.com/nvm-sh/nvm
+
+# install
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# activate
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # nvm install node images
 export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 export NVM_IOJS_ORG_MIRROR=http://npm.taobao.org/mirrors/iojs
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # jenv
+
+# repo 
+# https://github.com/jenv/jenv
+
+# install
+# git clone https://github.com/jenv/jenv.git ~/.jenv
+
+# activate
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
