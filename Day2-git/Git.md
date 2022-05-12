@@ -1,5 +1,11 @@
 # Git
 
+- 初始化配置
+  - 用户名：`git config --global user.name  "username"`
+  - 邮箱：`git config --global user.email  "email"`
+  - 更改冲突处理方案：`git config --global pull.rebase false`
+  - ![image-20220512230855801](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_12_23_08_56_1652368136_1652368136057_X2Zl4a_image-20220512230855801.png)
+
 ​	[教程原文](https://juejin.cn/post/6844904191308070919)
 
 ![img](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_22_41_23_1652193683_1652193683859_KYIbOz_172bae45bf450595~tplv-t2oaga2asx-zoom-in-crop-mark:1304:0:0:0.awebp)
