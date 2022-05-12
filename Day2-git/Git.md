@@ -8,7 +8,7 @@
 
 ​	[教程原文](https://juejin.cn/post/6844904191308070919)
 
-![img](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_22_41_23_1652193683_1652193683859_KYIbOz_172bae45bf450595~tplv-t2oaga2asx-zoom-in-crop-mark:1304:0:0:0.awebp)
+![2022_05_10_22_41_23_1652193683_1652193683859_KYIbOz_172bae45bf450595~tplv-t2oaga2asx-zoom-in-crop-mark:1304:0:0:0.awebp](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_12_23_10_57_1652368257_1652368257916_8DMNEQ_2022_05_10_22_41_23_1652193683_1652193683859_KYIbOz_172bae45bf450595~tplv-t2oaga2asx-zoom-in-crop-mark:1304:0:0:0.awebp.png)
 
 ## 创建 新的git仓库 及 克隆远程库
 
