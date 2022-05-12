@@ -106,22 +106,56 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.bash_profile
 
+# auto jump Desktop when start
+cd ~/Desktop
+
 # proxy
-export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;export ALL_PROXY=socks5://127.0.0.1:1080
+export http_proxy=http://127.0.0.1:1087;
+export https_proxy=http://127.0.0.1:1087;
+export ALL_PROXY=socks5://127.0.0.1:1080;
 # export ALL_PROXY=socks5://192.168.100.3:1080
+
+# ============== nvm ==============
+
+# repo
+# https://github.com/nvm-sh/nvm
+
+# install
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# activate
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # nvm install node images
 export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 export NVM_IOJS_ORG_MIRROR=http://npm.taobao.org/mirrors/iojs
 
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# jenv
+# ============== jenv ==============
+
+# repo 
+# https://github.com/jenv/jenv
+
+# install
+# git clone https://github.com/jenv/jenv.git ~/.jenv
+
+# activate
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# auto jump Desktop when start
-cd ~/Desktop
+# ============== pyenv ==============
+# repo 
+# https://github.com/pyenv/pyenv
+
+# install
+# curl https://pyenv.run | bash
+
+# pyenv install node images
+export  PYTHON_BUILD_MIRROR_URL="http://pyenv.qiniudn.com/pythons/"
+
+# activate
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
