@@ -1,7 +1,9 @@
 #	MacOS
 
-- 访达
+- 常用系统快捷键
+  - [教程](https://juejin.cn/post/6974055900872966152)
   
+- 访达
   - 设置-高级-显示所有文件的扩展名
   - 查看隐藏文件快捷键：`shift + command + . `
   - ![image-20220510213611535](https://cdn.jsdelivr.net/gh/hgt803/picgo@main/2022_05_10_21_36_11_1652189771_1652189771714_eKFu2k_image-20220510213611535.png)
@@ -48,17 +50,17 @@
     - GitLens
     	- 管理 git、查看提交记录等
     - Markdown All in One
-	    - 写 markdown
+      - 写 markdown
     - filesize
-	    - 在状态栏中显示当前文件大小。
+      - 在状态栏中显示当前文件大小。
     - Color Highlight
-	    - 颜色代码进行高亮展示的插件
+      - 颜色代码进行高亮展示的插件
     - Image preview
-	    - 图片预览
+      - 图片预览
     - Trailing Spaces
-	    - 尾随空格突出显示
+      - 尾随空格突出显示
     - Better Comments
-	    - 美化注释
+      - 美化注释
     - indent-rainbow
       - 彩虹缩进
     - CSS Peek
