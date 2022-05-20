@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+
+}
+
+.warp{
+
+}
+
+.warp .item{
+    width: 3.75rem;
+    min-height: 0.32rem;
+    padding:0.11rem 0;
+    background: #fff;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.warp .item .left{
+    padding: 0 0.28rem 0 0.18rem;
+    font-size: 0.13rem;
+    min-width: 0.05rem;
+}
+
+.warp .item .center{
+    /* display: flex; */
+    width: 100%;
+}
+
+.warp .item .center .title{
+    font-size: 0.15rem;
+    font-weight: bolder;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; */
+}
+
+.warp .item .center .title-f{
+    font-size: 0.13rem;
+    /* display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden; */
+}
+
+
+.warp .item .right{
+    padding-right: 0.35rem;
+    padding-left: 0.35rem;
+    display: flex;
+}
+
+.warp .item .right .poind{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #c8c8c8;
+    margin-right: 0.04rem;
+    /* min-width: 1rem; */
+}
