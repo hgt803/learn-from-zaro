@@ -17,7 +17,7 @@
 
     // set 1rem = viewWidth / 10
     function setRemUnit() {
-        var rem = docEl.clientWidth / 3.75  // 数值为: 设计稿宽度 / 100
+        var rem = docEl.clientWidth / 3.75  // 数值为: 设计稿宽度(375) / 100
         docEl.style.fontSize = rem + 'px'
 
         // em： 相对于上一层级的字体大小的倍数

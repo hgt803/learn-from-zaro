@@ -1,0 +1,53 @@
+.warp{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+}
+
+.content .content-item{
+    height: 100%;
+    display: flex;
+}
+
+.content .home{
+    background-color: red;
+
+}
+.content .car{
+    background-color: yellow;
+}
+.content .search{
+    background-color: green;
+}
+.content .mine{
+    background-color: blue;
+}
+
+.tabbar{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.tabbar .tabbar-item{
+    width: 25%;
+    height: 60px;
+    font-size: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabbar .tabbar-item i{
+    font-size: 20px;
+}
+
+.tabbar .tabbar-item-active{
+    color: green;
+}

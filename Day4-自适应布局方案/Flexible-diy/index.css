@@ -14,7 +14,7 @@ body{
 
 .warp .item{
     width: 3.75rem;
-    min-height: 0.32rem;
+    min-height: 0.32rem;  /* 32px */
     padding:0.11rem 0;
     background: #fff;
     display: flex;

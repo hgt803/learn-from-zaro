@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div onclick="clickAfn()">监听事件 1：元素绑定法</div>
+    <div id="clickB">监听事件 2：onclick</div>
+    <div id="clickC" value="this is a data">监听事件 3：addEventListener</div>
+
+
+    <input type="text" id="show">
+</body>
+<script>
+    function clickAfn(e) {
+        console.log('e: ', e);
+    }
+
+    var clickB = document.getElementById('clickB')
+    clickB.onclick = function (e) {
+        console.log('e: ', e);
+    }
+
+    var clickC = document.getElementById('clickC')
+
+    var show = document.getElementById('show')
+    // 推荐使用
+    clickC.addEventListener('click', function (event) {
+        console.log('event: ', event);
+        show.value = event.target.attributes.value.nodeValue
+    })
+
+
+
+</script>
+
+</html>
